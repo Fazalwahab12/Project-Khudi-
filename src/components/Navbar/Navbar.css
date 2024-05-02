@@ -374,11 +374,19 @@
   display: flex;
   gap: 5px 0; /* Add gap between buttons vertically */
   font-size: 1rem; /* Set font size */
+  color: #212158; /* Set text color */
 }
 
 .center-buttons button {
   margin: 0; /* Remove any existing margins */
   padding: 6px; /* Adjust padding as needed */
+}
+
+/* Hide center-buttons on medium (md) and small (sm) screens */
+@media screen and (max-width: 1023px) {
+  .center-buttons {
+    display: none;
+  }
 }
 
 /* Hide center-buttons on medium (md) and small (sm) screens */
