@@ -79,7 +79,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #fd7e14;
+    background-color: #4f555a;
     transform-origin: bottom left;
     transition: transform 0.25s ease-out;
   }
@@ -105,16 +105,12 @@
   }
 
   #donate-btn {
-    background: linear-gradient(270deg, rgba(239, 95, 52, 0.75), #e34212);
+    background: linear-gradient(270deg, rgba(5, 35, 80, 0.75), #06056d);
     color: #fff;
     font-weight: 500;
     border-radius: 6px;
     border: none;
     padding: 20px;
-  }
-
-  #donate-btn:hover {
-    background: linear-gradient(270deg, #e34212, rgba(239, 95, 52, 0.75));
   }
 
   #search-nav {
@@ -198,7 +194,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #fd7e14;
+    background-color: #4f555a;
     transform-origin: bottom left;
     transition: transform 0.25s ease-out;
   }
@@ -239,16 +235,12 @@
   }
 
   #donate-btn {
-    background: linear-gradient(270deg, rgba(239, 95, 52, 0.75), #e34212);
+    background: linear-gradient(270deg, rgba(24, 7, 85, 0.75), #140857);
     color: #fff;
     font-weight: 500;
     border-radius: 6px;
     border: none;
     padding: 16px;
-  }
-
-  #donate-btn:hover {
-    background: linear-gradient(270deg, #e34212, rgba(239, 95, 52, 0.75));
   }
 
   #search-nav {

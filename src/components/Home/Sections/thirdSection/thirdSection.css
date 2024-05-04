@@ -18,7 +18,7 @@
     grid-column-end: 2;
   }
   .right-third-section h4 {
-    color: #ef5f34;
+    color: #4f555a;
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -54,7 +54,7 @@
     position: absolute;
     left: 0;
     top: 50%;
-    color: #ef5f34;
+    color: #4f555a;
   }
   .right-third-section li {
     font-size: 16px;
@@ -66,7 +66,7 @@
     margin-bottom: 30px;
   }
   .right-third-section svg {
-    fill: #ef5f34;
+    fill: #4f555a;
   }
 }
 @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
@@ -85,7 +85,7 @@
     grid-column-end: 2;
   }
   .right-third-section h4 {
-    color: #ef5f34;
+    color: #4f555a;
     font-size: 14px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -127,7 +127,7 @@
     position: absolute;
     left: 0;
     top: 50%;
-    color: #ef5f34;
+    color: #4f555a;
   }
   .right-third-section li {
     font-size: 14px;
@@ -139,7 +139,7 @@
     margin-bottom: 30px;
   }
   .right-third-section svg {
-    fill: #ef5f34;
+    fill: #4f555a;
   }
 }
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -166,7 +166,7 @@
     text-align: left;
   }
   .right-third-section h4 {
-    color: #ef5f34;
+    color: #4f555a;
     font-size: 16px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -211,7 +211,7 @@
     margin-bottom: 30px;
   }
   .right-third-section svg {
-    fill: #ef5f34;
+    fill: #4f555a;
   }
 }
 
@@ -236,7 +236,7 @@
     width: 300px;
   }
   .right-third-section h4 {
-    color: #ef5f34;
+    color: #4f555a;
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -272,7 +272,7 @@
     position: absolute;
     left: 0;
     top: 50%;
-    color: #ef5f34;
+    color: #4f555a;
   }
   .right-third-section li {
     font-size: 16px;
@@ -284,6 +284,6 @@
     margin-bottom: 30px;
   }
   .right-third-section svg {
-    fill: #ef5f34;
+    fill: #4f555a;
   }
 }

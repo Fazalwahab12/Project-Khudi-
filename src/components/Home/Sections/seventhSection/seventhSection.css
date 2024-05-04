@@ -5,7 +5,7 @@
 @media screen and (min-device-width: 1440px) {
   .seventh-container {
     background-image: url("../../../Images/shape.png"),
-      linear-gradient(rgba(239, 95, 52, 0.75), #ed4918);
+      linear-gradient(rgba(10, 11, 71, 0.75), #120942);
     border-radius: 20px;
     display: grid;
     grid-auto-columns: repeat(3, 1fr);
@@ -54,7 +54,7 @@
 @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
   .seventh-container {
     background-image: url("../../../Images/shape.png"),
-      linear-gradient(rgba(239, 95, 52, 0.75), #ed4918);
+      linear-gradient(rgba(34, 12, 70, 0.75), #2b0b49);
     border-radius: 20px;
     display: grid;
     grid-auto-columns: repeat(3, 1fr);
@@ -108,7 +108,7 @@
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .seventh-container {
     background-image: url("../../../Images/shape.png"),
-      linear-gradient(#ed4918, rgba(239, 95, 52, 0.75));
+      linear-gradient(#170c3f, rgba(19, 15, 68, 0.75));
     border-radius: 20px;
     display: grid;
     align-items: center;
@@ -150,7 +150,7 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .seventh-container {
     background-image: url("../../../Images/shape.png"),
-      linear-gradient(#ed4918, rgba(239, 95, 52, 0.75));
+      linear-gradient(#0f0e4e, rgba(10, 17, 51, 0.75));
     border-radius: 20px;
     display: grid;
     grid-auto-rows: repeat(2, 1fr);
