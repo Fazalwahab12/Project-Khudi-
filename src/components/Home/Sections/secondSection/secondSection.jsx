@@ -12,25 +12,25 @@ function secondSection() {
           <div className="image-box-container">
             <img src={vegetable} />
           </div>
-          <a href="#">Healthy Food</a>
+          <a href="#">1500+ Volunteers</a>
         </div>
         <div className="second-box">
           <div className="image-box-container">
             <img src={faucet} />
           </div>
-          <a href="#">Clean Water</a>
+          <a href="#">5+ institutions</a>
         </div>
         <div className="third-box">
           <div className="image-box-container">
             <img src={medicine} />
           </div>
-          <a href="#">Medical Care</a>
+          <a href="#">85+ Cases Solved</a>
         </div>
         <div className="fourth-box">
           <div className="image-box-container">
             <img src={hat} />
           </div>
-          <a href="#">Child Education</a>
+          <a href="#">12000+ People Served</a>
         </div>
       </div>
     </div>

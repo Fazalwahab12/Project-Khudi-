@@ -6,11 +6,11 @@ function tenthSection() {
     <div className="home-tenth-section">
       <div className="tenth-container">
         <div className="tenth-upper-container">
-          <h4>Who help us</h4>
-          <h2>Our Partners & Donors</h2>
+          <h4>Shared Vision</h4>
+          <h2>We Encourage Collaborations</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form,
+            We believe in collaboration and joining hands with all those who
+            wish well for humanity and Pakistan.
           </p>
         </div>
         <div className="tenth-lower-container">

@@ -1,21 +1,26 @@
-import React from 'react'
-import '../fifthSection/fifthSection.css'
-import FifthSectionSlider from '../../../Sliders/FifthSectionSlider.jsx'
+import React from "react";
+import "../fifthSection/fifthSection.css";
+import FifthSectionSlider from "../../../Sliders/FifthSectionSlider.jsx";
 function fifthSection() {
-    return (
-        <div className='home-fifth-section'>
-            <div className='fifth-container'>
-                <div className='fifth-upper-container'>
-                    <h4>Expert Team</h4>
-                    <h2>Meet Our Volunteer Team</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form,</p>
-                </div>
-                <div className='fifth-lower-container'>
-                    < FifthSectionSlider />
-                </div>
-            </div>
+  return (
+    <div className="home-fifth-section">
+      <div className="fifth-container">
+        <div className="fifth-upper-container">
+          <h4>Team Project Khudi</h4>
+          <h2>Meet Our Warriors</h2>
+          <p>
+            We refer to our volunteers as warriors because of their ambition and
+            spirit to combat Pakistan's biggest crisis: poverty. With the right
+            approach, they are becoming beacons of hope for their communities
+            during times of crisis. Team (Collect full names and images of top
+            15 members): Hamna, Amna, Nida, Kamran, Roit et
+          </p>
         </div>
-    )
+        <div className="fifth-lower-container">
+          <FifthSectionSlider />
+        </div>
+      </div>
+    </div>
+  );
 }
-export default fifthSection
+export default fifthSection;

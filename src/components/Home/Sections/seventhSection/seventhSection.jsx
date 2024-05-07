@@ -7,7 +7,9 @@ function seventhSection() {
       <div className="seventh-container">
         <div className="tablet-sevent-item">
           <div className="seventh-first-item">
-            <h1>Lets Chenge The World With Humanity</h1>
+            <h1>
+              Let’s Help Pakistan Prosper and Grow Economically Become a Warrior
+            </h1>
           </div>
           <div className="seventh-second-item">
             <button>Become A Volunteer</button>
