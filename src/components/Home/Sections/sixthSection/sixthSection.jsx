@@ -23,7 +23,6 @@
 // export default sixthSection;
 import React from "react";
 import pictureThirdSection from "../../../Images/third-section-picture.png";
-import "../thirdSection/thirdSection.css";
 
 function sixthSection() {
   return (

@@ -6,23 +6,26 @@ import "../Sliders/FifthSectionSlider.css";
 function FifthSectionSlider() {
   const items = FifthSectionSliderData.map((type) => {
     return (
-      <div className="item-fifthSection" key={type}>
-        <img src={type.image} alt="test" />
+      <div className=" m-12 " key={type}>
+        <img
+          src={type.image}
+          alt="test"
+          className=" h-72  w-72 rounded-lg bg-cover   object-cover"
+        />
         <br />
         <a href="#"> {type?.name} </a>
-        <p> {type?.description} </p>
       </div>
     );
   });
   return (
-    <div className="test1">
+    <div className="">
       <AliceCarousel
         mouseTracking
         items={items}
         responsive={{
           0: { items: 1 },
-          767: { items: 3 },
-          1023: { items: 3 },
+          767: { items: 4 },
+          1023: { items: 4 },
           1439: { items: 4 },
         }}
         disableDotsControls={true}

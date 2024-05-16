@@ -3,10 +3,10 @@ import "../fifthSection/fifthSection.css";
 import FifthSectionSlider from "../../../Sliders/FifthSectionSlider.jsx";
 function fifthSection() {
   return (
-    <div className="home-fifth-section">
+    <div id="warriors" className=" mt-6">
       <div className="fifth-container">
-        <div className="fifth-upper-container">
-          <h4>Team Project Khudi</h4>
+        <div className="fifth-upper-container pt-5">
+          <h4 className=" text-2xl">Team Project Khudi</h4>
           <h2>Meet Our Warriors</h2>
           <p>
             We refer to our volunteers as warriors because of their ambition and

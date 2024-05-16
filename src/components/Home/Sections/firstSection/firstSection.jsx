@@ -6,8 +6,8 @@ import kid2 from "../../../Images/kid2.png";
 import FirstSectionSlider from "../../../Sliders/FirstSectionSlider.jsx";
 function firstSection() {
   return (
-    <div className="home-first-section">
-      <div className="first-section-first-div">
+    <div className="home-first-section m-5">
+      <div className="first-section-first-div ">
         <h3>Join us in empowering Pakistan economically.</h3>
         <h1>
           We believe in addressing root causes rather than offering temporary
@@ -18,7 +18,9 @@ function firstSection() {
           while simultaneously imparting valuable skills and offering support to
           entrepreneurs and startups in subsequent phases.
         </p>
-        <button>Learn More</button>
+        <button className="text-sm px-7 mt-4 mb-4 pr-7 font-semibold text-white bg-[#4C3F7C] p-3  rounded-md">
+          Learn More
+        </button>
       </div>
       <div className="first-section-second-div">
         <img src={kid1} alt="" />

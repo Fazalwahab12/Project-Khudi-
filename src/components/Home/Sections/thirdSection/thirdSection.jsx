@@ -1,17 +1,22 @@
 import React from "react";
 import pictureThirdSection from "../../../Images/third-section-picture.png";
-import "../thirdSection/thirdSection.css";
 
 function thirdSection() {
   return (
-    <div className="home-third-section">
-      <div className="third-container">
-        <div className="left-third-section">
-          <img src={pictureThirdSection} alt="picture third section" />
+    <div id="About">
+      <div className=" flex md:flex-row flex-col m-8 ">
+        <div className=" flex-1">
+          <img
+            className=" rounded-3xl"
+            src={pictureThirdSection}
+            alt="picture third section"
+          />
         </div>
-        <div className="right-third-section">
-          <h4>About Us</h4>
-          <h2>We Can Save More Lifes With Your Helping Hand.</h2>
+        <div className=" flex-1 p-5 pt-10 space-y-10">
+          <h4 className=" text-2xl text-[#212158]">About Us</h4>
+          <h2 className="text-xl text-[#212158]">
+            We Can Save More Lifes With Your Helping Hand.
+          </h2>
           <p>
             Project Khudi started in 2022 as a youth-led initiative in
             Rawalpindi, Pakistan. Founded by Zain Ul Abideen Baloch (Founder)
@@ -36,7 +41,9 @@ function thirdSection() {
               encouraging a culture of innovation and business creation.
             </li>
           </ul>
-          <button>More About</button>
+          <button className=" bg-[#212158] p-4 text-white  rounded-xl">
+            More About
+          </button>
         </div>
       </div>
     </div>
