@@ -5,7 +5,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 
 import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
