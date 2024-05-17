@@ -29,7 +29,7 @@ const fourthSection = () => {
               </h2>
             </div>
             <div className=" shadow-lg rounded-lg">
-              <img src={Food} className="" />
+              <img src={FourthMedicine} className="" />
               <br />
               <h2 className=" p-3">
                 <a href="#">
