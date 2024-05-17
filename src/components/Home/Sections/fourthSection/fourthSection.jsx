@@ -18,8 +18,8 @@ const fourthSection = () => {
         </div>
         <div className="  ">
           <div className="flex  md:mx-16 mt-6  gap-10 flex-col  md:flex-row">
-            <div className=" shadow-lg rounded-lg">
-              <img src={Education} className="" />
+            <div className=" shadow-lg rounded-2xl">
+              <img src={Education} className="rounded-3xl p-2" />
               <br />
               <h2 className=" p-3">
                 <a href="#">
@@ -28,8 +28,8 @@ const fourthSection = () => {
                 </a>
               </h2>
             </div>
-            <div className=" shadow-lg rounded-lg">
-              <img src={FourthMedicine} className="" />
+            <div className=" shadow-lg rounded-2xl">
+              <img src={FourthMedicine} className="rounded-3xl p-2" />
               <br />
               <h2 className=" p-3">
                 <a href="#">
