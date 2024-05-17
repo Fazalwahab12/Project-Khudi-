@@ -1,5 +1,5 @@
 import React from "react";
-import pictureThirdSection from "../../../Images/third-section-picture.png";
+import pictureThirdSection from "../../../Images/aboutus.jpg";
 
 function thirdSection() {
   return (
@@ -12,8 +12,8 @@ function thirdSection() {
             alt="picture third section"
           />
         </div>
-        <div className=" flex-1 p-5 pt-10 space-y-10">
-          <h4 className=" text-2xl text-[#212158]">About Us</h4>
+        <div className=" flex-1 space-x-8 space-y-10">
+          <h4 className=" text-2xl px-4 text-[#212158]">About Us</h4>
           <h2 className="text-xl text-[#212158]">
             We Can Save More Lifes With Your Helping Hand.
           </h2>

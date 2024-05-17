@@ -1,6 +1,6 @@
 import React from "react";
-import pictureThirdSection from "../../../Images/third-section-picture.png";
-
+import pictureThirdSection from "../../../Images/ourvistion.jpg";
+import ouevition from "../../../Images/ouevition1.jpg";
 const OurVision = () => {
   return (
     <div>
@@ -36,10 +36,15 @@ const OurVision = () => {
             More About
           </button>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 space-y-2">
           <img
-            className="rounded-3xl"
+            className="rounded-3xl h-72 w-full object-cover"
             src={pictureThirdSection}
+            alt="Empowering a Prosperous Future"
+          />
+          <img
+            className="rounded-3xl  h-72 w-full object-cover"
+            src={ouevition}
             alt="Empowering a Prosperous Future"
           />
         </div>

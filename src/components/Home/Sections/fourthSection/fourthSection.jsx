@@ -1,5 +1,5 @@
 import React from "react";
-import FourthMedicine from "../../../Images/medicine_fourth.png";
+import FourthMedicine from "../../../Images/Campaigns1.jpeg";
 import Food from "../../../Images/food.png";
 import Education from "../../../Images/education.png";
 const fourthSection = () => {
@@ -38,8 +38,8 @@ const fourthSection = () => {
                 </a>
               </h2>
             </div>
-            <div className="shadow-lg rounded-lg">
-              <img src={FourthMedicine} className="" />
+            <div className="shadow-lg rounded-2xl">
+              <img src={FourthMedicine} className=" rounded-3xl p-2" />
               <br />
               <h2 className=" p-3">
                 <a href="#">

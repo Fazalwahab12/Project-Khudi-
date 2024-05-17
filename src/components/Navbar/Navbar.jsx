@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-
+import logo from "../Images/logo.png";
 const menuItems = [
   { title: "Home", route: "/" },
   { title: "About Us", route: "/#About" },
@@ -17,11 +17,11 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap m-4 md:mx-6 mx-2 md:mr-6 mr-2">
       <a href="/">
-        <div className="flex items-center flex-shrink-0 gap-2 cursor-pointer">
-          {/* <img src={logo} alt="Logo" className="h-12 w-12" />{" "} */}
+        <div className="flex items-center flex-shrink-0  cursor-pointer">
+          <img src={logo} alt="Logo" className="h-20 w-20" />{" "}
           {/* Use the img tag for the logo */}
           <span className="font-bold md:text-3xl text-2xl text-black tracking-tight">
-            logo
+            Project Khudi
           </span>
         </div>
       </a>
@@ -59,12 +59,11 @@ const Navbar = () => {
       {showMenu && (
         <div className="lg:hidden fixed top-0 left-0 w-full h-full bg-white z-10">
           <div className="flex justify-between">
-            <div className="flex px-3 gap-2 pt-4">
-              <a href="/">
-                {/* <img src={logo} alt="Logo" className="h-12 w-12" /> */}
-              </a>
-              <span className="font-bold text-2xl pt-1 text-black tracking-tight">
-                logo
+            <div className="flex items-center flex-shrink-0  cursor-pointer">
+              <img src={logo} alt="Logo" className="h-20 w-20" />{" "}
+              {/* Use the img tag for the logo */}
+              <span className="font-bold md:text-3xl text-2xl text-black tracking-tight">
+                Project Khudi
               </span>
             </div>
             <div className="mr-2 pt-2">
