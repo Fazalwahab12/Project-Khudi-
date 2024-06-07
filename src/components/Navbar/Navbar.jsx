@@ -18,14 +18,12 @@ const Navbar = () => {
     <nav className="flex items-center justify-between flex-wrap m-4 md:mx-6 mx-2 md:mr-6 mr-2">
       <a href="/">
         <div className="flex items-center flex-shrink-0  cursor-pointer">
-          <img src={logo} alt="Logo" className="h-20 w-20" />{" "}
-          {/* Use the img tag for the logo */}
-          <span className="font-bold md:text-3xl text-2xl text-black tracking-tight">
-            Project Khudi
-          </span>
+          <img src={logo} alt="Logo" className="md:h-32 md:w-32 h-28 w-28  " />{" "}
+          
+         
         </div>
       </a>
-      <div className="hidden lg:flex xl:gap-12 gap-6 items-center xl:text-xl leading-5 px-6 pr-6 text-gray-600 bg-[#edefeb] p-2 rounded-[18px]">
+      <div className="hidden lg:flex xl:gap-12 gap-6 items-center xl:text-xl leading-5 px-6 pr-6 text-white bg-[#4C3F7C] p-2 rounded-[12px]">
         {menuItems.map((item, index) => (
           <a
             key={index}
@@ -51,7 +49,7 @@ const Navbar = () => {
       <div className="lg:hidden flex">
         <span
           onClick={toggleMenu}
-          className="text-xl w-10 h-10 bg-black text-white inline-flex items-center justify-center rounded-full cursor-pointer px-3"
+          className="text-xl w-12 h-12 bg-black text-white inline-flex items-center justify-center rounded-full cursor-pointer "
         >
           <FiMenu />
         </span>
@@ -62,9 +60,7 @@ const Navbar = () => {
             <div className="flex items-center flex-shrink-0  cursor-pointer">
               <img src={logo} alt="Logo" className="h-20 w-20" />{" "}
               {/* Use the img tag for the logo */}
-              <span className="font-bold md:text-3xl text-2xl text-black tracking-tight">
-                Project Khudi
-              </span>
+              
             </div>
             <div className="mr-2 pt-2">
               <span

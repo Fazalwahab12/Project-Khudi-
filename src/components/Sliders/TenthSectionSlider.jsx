@@ -44,7 +44,7 @@ function TenthSectionSlider() {
       <AliceCarousel
         mouseTracking
         items={items}
-        responsive={{ 0: { items: 1 }, 767: { items: 4 }, 1023: { items: 5 } }}
+        responsive={{ 0: { items: 2 }, 767: { items: 4 }, 1023: { items: 5 } }}
         disableDotsControls={true}
         disableButtonsControls={true}
         infinite={true}

@@ -17,7 +17,7 @@ const Home = () => {
       <OurVision />
       <FourthSection />
       <FifthSection />
-      <SeventhSection />
+      
       <TenthSection />
     </div>
   );

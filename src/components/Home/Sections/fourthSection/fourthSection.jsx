@@ -21,30 +21,29 @@ const fourthSection = () => {
             <div className=" shadow-lg rounded-2xl  ">
               <img src={compagin2} className="rounded-3xl p-2 " height={50} />
               <br />
-              <h2 className=" p-3">
+              <h2 className="  p-3 text-center justify-center  flex font-bold text-xl">
                 <a href="#">
-                  In 2023 and 2024, we organised Ramadan drives for a full 30
-                  days (4000+ People Served)
+                2023/ 2024 Ramadan Drive 
+
                 </a>
               </h2>
             </div>
             <div className=" shadow-lg rounded-2xl">
               <img src={FourthMedicine} className="rounded-3xl p-2" />
               <br />
-              <h2 className=" p-3">
+              <h2 className="  p-3 text-center justify-center  flex font-bold text-xl">
                 <a href="#">
-                  Delivered Free small businesses to deserving individuals (85+
-                  FREE Setups delivered)
+                Empowering not Donating
                 </a>
               </h2>
             </div>
             <div className="shadow-lg rounded-2xl">
               <img src={compagin2} className=" rounded-3xl p-2" />
               <br />
-              <h2 className=" p-3">
+              <h2 className=" p-3 text-center justify-center  flex font-bold text-xl">
                 <a href="#">
-                  Aided in rescuing people during the flood relief campaign in
-                  Malakand, KPK (200+ Families Rescued)
+                Flood Relief Campaign
+
                 </a>
               </h2>
               <br />
