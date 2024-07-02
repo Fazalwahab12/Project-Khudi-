@@ -9,25 +9,25 @@ function SecondSection() {
   return (
     <div className="home-second-section">
       <div className="icon-div">
-        <div className="first-box">
+        <div className="box">
           <a href="#">
             <img src={vegetable} alt="vegetable" />
             1500+ Volunteers
           </a>
         </div>
-        <div className="second-box">
+        <div className="box">
           <a href="#">
             <img src={faucet} alt="faucet" />
             5+ institutions
           </a>
         </div>
-        <div className="third-box">
+        <div className="box">
           <a href="#">
             <img src={medicine} alt="medicine" />
             85+ Cases Solved
           </a>
         </div>
-        <div className="fourth-box">
+        <div className="box">
           <a href="#">
             <img src={hat} alt="hat" />
             12000+ People Served

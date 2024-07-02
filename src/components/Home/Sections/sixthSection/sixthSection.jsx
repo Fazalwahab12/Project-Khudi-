@@ -27,7 +27,7 @@ import pictureThirdSection from "../../../Images/third-section-picture.png";
 function sixthSection() {
   return (
     <div className="home-third-section">
-      <div className="third-container">
+      <div className="third-container gap-2">
         <div className="left-third-section">
           <img src={pictureThirdSection} alt="picture third section" />
         </div>
